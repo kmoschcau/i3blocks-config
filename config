@@ -77,6 +77,8 @@ min_width=mem: 0.0G/0.0G (100%)
 [volume-pulseaudio]
 interval=1
 markup=pango
+DEFAULT_COLOR=#ebdbb2
+MUTED_COLOR=#a89984
 
 [time]
 interval=1
