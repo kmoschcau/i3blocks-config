@@ -82,6 +82,6 @@ MUTED_COLOR=#a89984
 
 [time]
 interval=1
-STRFTIME_FORMAT=%F %T
+STRFTIME_FORMAT=%B %F %A %T
 TZONES=Europe/Berlin,Etc/UTC
 TZ_LABELS=,UTC
