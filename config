@@ -30,16 +30,30 @@ separator_block_width=15
 markup=none
 
 [kbdd_layout]
+# depends on kbdd (AUR: kbdd-git)
 interval=persist
 
 [batterybar]
+# depends on acpi
 label=bat: 
 interval=5
 markup=pango
 min_width=bat: ■■■■■
+# Discharging colors low to high
+C1=#f44336
+C2=#ff5722
+C3=#ff9800
+C4=#ffc107
+C5=#ffeb3b
+C6=#cddc39
+C7=#8bc34a
+C8=#4caf50
+CHARGING_COLOR=#03a9f4
+FULL_COLOR=#eceff1
+AC_COLOR=#90a4ae
 
 [iface]
-color=#b8bb26
+color=#8bc34a
 interval=5
 
 [wifi]
@@ -57,6 +71,7 @@ LABEL=⌂
 interval=30
 
 [temperature]
+# depends on perl
 label=temp: 
 interval=10
 
@@ -65,6 +80,7 @@ label=load:
 interval=1
 
 [cpu_usage]
+# depends on sysstat
 label=cpu: 
 interval=1
 min_width=cpu: 100.0%
@@ -75,12 +91,16 @@ interval=1
 min_width=mem: 0.0G/0.0G (100%)
 
 [volume-pulseaudio]
+# depends on pulseaudio
+# depends on alsa-utils
+# depends on ttf-font-awesome
 interval=1
 markup=pango
-DEFAULT_COLOR=#ebdbb2
-MUTED_COLOR=#a89984
+DEFAULT_COLOR=#eceff1
+MUTED_COLOR=#90a4ae
 
 [time]
+# depends on perl
 interval=1
 STRFTIME_FORMAT=%B %F %A %T
 TZONES=Europe/Berlin,Etc/UTC
