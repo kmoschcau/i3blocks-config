@@ -49,8 +49,8 @@ C6=#cddc39
 C7=#8bc34a
 C8=#4caf50
 CHARGING_COLOR=#03a9f4
-FULL_COLOR=#eceff1
-AC_COLOR=#90a4ae
+FULL_COLOR=#fafafa
+AC_COLOR=#9e9e9e
 
 [iface]
 color=#8bc34a
@@ -96,8 +96,8 @@ min_width=mem: 0.0G/0.0G (100%)
 # depends on ttf-font-awesome
 interval=1
 markup=pango
-DEFAULT_COLOR=#eceff1
-MUTED_COLOR=#90a4ae
+DEFAULT_COLOR=#fafafa
+MUTED_COLOR=#9e9e9e
 
 [time]
 # depends on perl
